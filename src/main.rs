@@ -17,9 +17,9 @@ fn f(vec: &Array1<f64>) -> f64 {
 
 fn main() -> Result<(), Error> {
     // Define some parameters
-    let size = 6;
+    let size = 10;
     let dim = 2;
-    let iters = 100;
+    let iters = 80;
 
     let value_distr = Uniform::new(-10., 10.);
     let velocity_range = (-1.0, 1.0);
